@@ -24,11 +24,13 @@
             android:id="@+id/name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Name"
-            android:layout_toEndOf="@id/task_checkbox"
+            android:layout_centerVertical="true"
             android:layout_marginRight="15dp"
-            android:textSize="30dp">
-        </TextView>
+            android:layout_toEndOf="@id/task_checkbox"
+            android:gravity="center"
+            android:text="Name"
+            android:textAlignment="center"
+            android:textSize="20dp"/>
 
         <Button
             android:id="@+id/done"
